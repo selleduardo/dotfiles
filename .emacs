@@ -45,17 +45,25 @@
 (global-linum-mode t)
 (setq linum-format "%3d ")
 
+
 (setq TeX-PDF-mode t)
 (setq-default TeX-master nil)
 (setq TeX-parse-self t)
 (setq TeX-auto-save t)
 
-(add-to-list 'default-frame-alist '(height . 61))
+(auto-fill-mode t)
+(reftex-mode t)
+(setq TeX-electric-math (cons "$" "$") ) ; auto close dollars
+;; Use zathura for previews
+(setq TeX-source-correlate-mode t)
+;;(add-to-list 'TeX-view-program-selection '(output-pdf "Zathura"))
 
+
+(add-to-list 'default-frame-alist '(height . 61))
 (add-to-list 'default-frame-alist '(width . 140))
 
 (require 'iso-transl)
 
 (require 'tex-site)
 
-(menu-bar-mode )
+(menu-bar-mode 0)
