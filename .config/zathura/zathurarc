@@ -1,6 +1,6 @@
 # zoom and scroll step size
 set zoom-step 20
-set scroll-step 80
+set scroll-step 50
 
 # copy selection to system clipboard
 set selection-clipboard clipboard
@@ -13,13 +13,13 @@ set adjust-open "width"
 set pages-per-row 1
 
 set font                        "Cantarell 8"
-set default-bg                  "#1a1829" #00
+set default-bg                  "#232323" #00
 set default-fg                  "#ac9b9d" #01
 
 set statusbar-fg                "#805084" #04
 set statusbar-bg                "#1f1d2f"  #01
 
-set inputbar-bg                 "#1a1829" #00 currently not used
+set inputbar-bg                 "#232323" #00 currently not used
 set inputbar-fg                 "#4e4c5e" #02
 
 set notification-error-bg       "#816886" #08
@@ -34,13 +34,13 @@ set highlight-active-color      "#ac9b9d" #0D
 set completion-highlight-fg     "#ac9b9d" #02
 set completion-highlight-bg     "#534475" #0C
 
-set completion-bg               "#1a1829" #02
+set completion-bg               "#232323" #02
 set completion-fg               "#ac9b9d" #0C
 
 set notification-bg             "#aa6772" #0B
 set notification-fg             "#ac9b9d" #00
 
-set recolor-lightcolor          "#1a1829" #00
+set recolor-lightcolor          "#232323" #00
 set recolor-darkcolor           "#ac9b9d" #06
 set recolor                     "true"
 
