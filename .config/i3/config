@@ -41,7 +41,7 @@ bindsym $mod+Shift+q kill
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -padding 15 -font "Open Sans 18"
+bindsym $mod+d exec rofi -show run
 
 
 # change focus
@@ -94,16 +94,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1"
-set $workspace2 "2"
+set $workspace1 "1  "
+set $workspace2 "2  "
 set $workspace3 "3"
 set $workspace4 "4"
 set $workspace5 "5"
 set $workspace6 "6"
 set $workspace7 "7"
-set $workspace8 "8"
-set $workspace9 "9"
-set $workspace10 "10"
+set $workspace8 "8  "
+set $workspace9 "9  "
+set $workspace10 "10  "
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -128,6 +128,14 @@ bindsym $mod+7 workspace $workspace7
 bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
 bindsym $mod+0 workspace $workspace10
+
+assign [class="Gnome-terminal"] $workspace1
+assign [class="Firefox-esr"] $workspace2
+assign [class="Zotero"] $workspace8
+assign [class="Thunderbird"] $workspace9
+assign [class="TelegramDesktop"] $workspace10
+
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -193,8 +201,10 @@ client.urgent $urgent-bg-color $urgent-bg-color $text-color #00ff00
 # }        
 # }
 #xfce4-panel
-exec --no-startup-id xfce4-panel --disable-wm-check
+# exec --no-startup-id xfce4-panel --disable-wm-check
 
+# Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 
 #gaps
@@ -210,11 +220,13 @@ exec_always --no-startup-id compton -f
 # Set the background
 exec --no-startup-id feh --bg-fill /home/eduardo/Pictures/Wallpaper/wllppr.png
 
-# Start guake
-exec --no-startup-id guake
-
 # Tap to click
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+
+# Start soft
+exec --no-startup-id guake
+exec --no-startup-id gnome-terminal
+exec --no-startup-id gnome-terminal
 
 
 # Brightness control
@@ -223,4 +235,4 @@ exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapp
 
 #Custom bindings
 #bindsym $mod+Shift+x exec i3lock --color 000000
-bindsym $mod+Shift+x exec /home/eduardo/.scripts/lock
+bindsym $mod+Shift+x exec /home/eduardo/.config/i3/lock
