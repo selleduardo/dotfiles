@@ -43,7 +43,7 @@ font-2 = MaterialIcons:size=14;4
 modules-left   = i3
 modules-center = clock
 ; modules-right  = brightness volume battery wifi powermenu
-modules-right  = battery powermenu
+modules-right  = network volume battery powermenu
 
 [module/clock]
 type = internal/date
@@ -86,62 +86,56 @@ animation-charging-3 = %{F#17a086} 
 animation-charging-4 = %{F#17a086} 
 animation-charging-framerate = 750
 
-; [module/wifi]
-; type = internal/network
-; interface = wlp2s0
-; interval = 1.0
-; ping-interval = 10
+[module/network]
+type = internal/network
+interface = wlp2s0
+interval = 1.0
+ping-interval = 10
 
-; format-connected = <label-connected>
-; label-connected = %{F#17a086} %{F#e8e8e8}%essid%
-; label-disconnected = %{F#17a086}
+format-connected = <label-connected>
+label-connected = %{F#17a086} %{F#e8e8e8} %essid%
+label-disconnected = %{F#17a086}
 
-; [module/volume]
-; type = internal/volume
+[module/volume]
+type = internal/volume
+format-volume = <ramp-volume>
 
-; format-volume = <ramp-volume> <bar-volume>
-; ;<label-volume>
-; label-muted = 
-; label-muted-foreground = ${colours.maia}
+label-muted = 
+label-muted-foreground = ${colours.maia}
 
-; ramp-volume-0 = 
-; ramp-volume-1 = 
-; ramp-volume-2 = 
-; ramp-volume-3 = 
-; ramp-volume-foreground = ${colours.maia}
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colours.maia} 
 
-; bar-volume-width = 6
-; bar-volume-indicator =
-; bar-volume-fill = 
-; bar-volume-fill-font = 3
-; bar-volume-fill-foreground = ${colours.white}
-; bar-volume-empty = 
-; bar-volume-empty-font = 3
-; bar-volume-empty-foreground = ${colours.grey}
 
-; label-volume-foreground = ${colours.white}
-; label-volume-font = 0
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
 
-; ; [module/brightness]
-; ; type = internal/xbacklight
-; ; output = eDP1
-; ; format = <ramp> <bar>
+format = <ramp>
+label = %percentage%%
 
-; ; ramp-0 = 🌕
-; ; ramp-1 = 🌔
-; ; ramp-2 = 🌓
-; ; ramp-3 = 🌒
-; ; ramp-4 = 🌑
-; ; ramp-foreground = ${colours.maia}
+; output = LVDS-1
+; enable-scroll = true
+; format = <bar>
 
-; ; bar-width = 6
-; ; bar-indicator =
-; ; bar-fill = 
-; ; bar-fill-font = 3
-; ; bar-fill-foreground = ${colours.white}
-; ; bar-empty = 
-; ; bar-empty-font = 3
-; ; bar-empty-foreground = ${colours.grey}
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+ramp-foreground = ${colours.maia}
+
+; bar-width = 6
+; bar-indicator =
+; bar-fill = 
+; bar-fill-font = 3
+; bar-fill-foreground = ${colours.white}
+; bar-empty = 
+; bar-empty-font = 3
+; bar-empty-foreground = ${colours.grey}
 
 [module/i3]
 type = internal/i3
