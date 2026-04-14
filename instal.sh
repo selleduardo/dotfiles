@@ -2,9 +2,9 @@
 
 echo "Installing dotfiles..."
 
-ln -sf ~/dotfiles/git/gitconfig ~/.gitconfig
+cp git/gitconfig ~/.gitconfig
 mkdir -p ~/.ssh
-ln -sf ~/dotfiles/bash/bashrc ~/.bashrc
-ln -sf ~/dotfiles/bash/bash_aliases ~/.bash_aliases
+cp bash/bashrc ~/.bashrc
+cp bash/bash_aliases ~/.bash_aliases
 
 echo "Done."
