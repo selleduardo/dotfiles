@@ -7,6 +7,6 @@ mkdir -p ~/.ssh
 cp ssh/config ~/.ssh/config
 cp bash/bashrc ~/.bashrc
 cp bash/bash_aliases ~/.bash_aliases
-cp bash/bash_profiles ~/.bash_profiles
+cp bash/bash_profile ~/.bash_profile
 
 echo "Done."
