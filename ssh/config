@@ -1,0 +1,12 @@
+Host gate
+    HostName gate.ifi.unicamp.br
+    User esg
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
+
+Host labpc
+    HostName 143.106.153.140
+    User eduardo
+    ProxyJump gate
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
