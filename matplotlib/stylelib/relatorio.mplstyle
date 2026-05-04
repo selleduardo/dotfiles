@@ -1,0 +1,24 @@
+font.size       : 15
+font.family     : serif
+font.serif      : Computer Modern Roman
+font.sans-serif : Computer Modern Sans serif
+text.usetex     : True 
+# text.latex.unicode : True
+
+legend.fancybox  : True
+legend.numpoints : 1
+legend.fontsize  : x-large
+# legend.handletextpad : 0.
+
+axes.grid      : False
+axes.labelsize : xx-large
+axes.facecolor : white
+
+xtick.labelsize : x-large
+ytick.labelsize : x-large
+
+figure.figsize   : 8, 6
+figure.facecolor : white
+
+lines.markersize : 10
+
