@@ -10,3 +10,10 @@ Host labpc
     ProxyJump gate
     IdentityFile ~/.ssh/id_ed25519
     IdentitiesOnly yes
+
+Host comsol-license
+    HostName gate.ifi.unicamp.br
+    User esg
+    LocalForward 1718 licserver3.ifi.unicamp.br:1718
+    LocalForward 1719 licserver3.ifi.unicamp.br:1719
+    ServerAliveInterval 60
