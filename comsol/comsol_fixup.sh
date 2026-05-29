@@ -16,20 +16,20 @@ echo "<?xml version=\"1.0\"?>
  </mime-info>" > /tmp/comsol-mph.xml
 
 sudo echo "[Desktop Entry]
-Version=1.0
+Name=COMSOL Multiphysics 6.3
+GenericName=COMSOL Multiphysics 6.3
+Comment=Launch COMSOL Multiphysics 6.3
+Exec=/usr/local/comsol63/multiphysics/bin/glnxa64/comsol %F
+Icon=/usr/local/comsol63/multiphysics/bin/glnxa64/comsol.png
+Terminal=false
 Type=Application
-Name=COMSOL 5.0
-Icon=/usr/local/comsol50/multiphysics/data/images/cube_large.png
-Exec=comsol_shortcut.sh %u
-NoDisplay=false
-Categories=Education;Physics;Engineering;
 MimeType=application/comsolmph;
-StartupNotify=true
-Terminal=false" > /usr/share/applications/comsol5.desktop
+Categories=Engineering;Science;
+StartupNotify=true" > /usr/share/applications/comsol-multiphysics-6.3.desktop
 
 sudo xdg-mime install --mode system /tmp/comsol-mph.xml
-sudo xdg-icon-resource install --mode system --context mimetypes --size 32 /usr/local/comsol50/multiphysics/data/images/cube_large.png application-comsolmph
-xdg-mime default comsol5.desktop application/comsolmph
+sudo xdg-icon-resource install --mode system --context mimetypes --size 32 /usr/local/comsol63/multiphysics/bin/glnxa64/comsol.png application-comsolmph
+xdg-mime default comsol-multiphysics-6.3.desktop application/comsolmph
 sudo update-mime-database /usr/share/mime
 
 sudo echo "#!/bin/bash
