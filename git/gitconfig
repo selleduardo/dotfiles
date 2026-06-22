@@ -2,6 +2,11 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Eduardo Sell Gonçalves
-	email = sell.eduardo@gmail.com
+	email = esell@cti.gov.br
 [init]
 	defaultBranch = main
+[color]
+	ui = auto
+[alias]
+	lg = log --oneline --graph --decorate --all
+	cm = commit -m
