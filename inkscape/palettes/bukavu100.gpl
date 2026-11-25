@@ -1,0 +1,104 @@
+GIMP Palette
+Name: bukavu 100 Swatches
+Columns: 1
+#
+ 28  21  43	bukavu-1 #1C152B
+ 30  22  51	bukavu-4 #1E1633
+ 31  23  56	bukavu-6 #1F1738
+ 33  25  66	bukavu-9 #211942
+ 35  26  73	bukavu-11 #231A49
+ 37  28  85	bukavu-14 #251C55
+ 38  29  94	bukavu-16 #261D5E
+ 41  32 108	bukavu-19 #29206C
+ 44  34 124	bukavu-22 #2C227C
+ 45  37 135	bukavu-24 #2D2587
+ 46  42 151	bukavu-27 #2E2A97
+ 47  46 161	bukavu-29 #2F2EA1
+ 46  53 174	bukavu-32 #2E35AE
+ 44  59 180	bukavu-34 #2C3BB4
+ 41  67 189	bukavu-37 #2943BD
+ 37  75 195	bukavu-40 #254BC3
+ 34  80 199	bukavu-42 #2250C7
+ 30  88 205	bukavu-45 #1E58CD
+ 27  93 208	bukavu-47 #1B5DD0
+ 24 100 214	bukavu-50 #1864D6
+ 20 107 219	bukavu-53 #146BDB
+ 18 112 222	bukavu-55 #1270DE
+ 15 119 227	bukavu-58 #0F77E3
+ 13 124 229	bukavu-60 #0D7CE5
+ 12 131 233	bukavu-63 #0C83E9
+ 12 136 235	bukavu-65 #0C88EB
+ 14 143 236	bukavu-68 #0E8FEC
+ 18 151 237	bukavu-71 #1297ED
+ 20 156 237	bukavu-73 #149CED
+ 24 163 236	bukavu-76 #18A3EC
+ 26 167 236	bukavu-78 #1AA7EC
+ 30 174 235	bukavu-81 #1EAEEB
+ 32 178 235	bukavu-83 #20B2EB
+ 36 184 234	bukavu-86 #24B8EA
+ 40 191 233	bukavu-89 #28BFE9
+ 43 195 233	bukavu-91 #2BC3E9
+ 47 201 232	bukavu-94 #2FC9E8
+ 49 205 232	bukavu-96 #31CDE8
+ 54 211 231	bukavu-99 #36D3E7
+ 57 215 231	bukavu-101 #39D7E7
+ 65 221 230	bukavu-104 #41DDE6
+ 76 227 229	bukavu-107 #4CE3E5
+ 85 231 229	bukavu-109 #55E7E5
+103 237 228	bukavu-112 #67EDE4
+117 240 227	bukavu-114 #75F0E3
+137 244 226	bukavu-117 #89F4E2
+149 246 225	bukavu-119 #95F6E1
+167 249 224	bukavu-122 #A7F9E0
+183 252 223	bukavu-125 #B7FCDF
+193 254 222	bukavu-127 #C1FEDE
+  0  36  32	bukavu-130 #002420
+  1  38  32	bukavu-132 #012620
+  1  40  30	bukavu-135 #01281E
+  1  43  29	bukavu-138 #012B1D
+  2  46  28	bukavu-140 #022E1C
+  2  49  26	bukavu-143 #02311A
+  2  52  25	bukavu-145 #023419
+  3  57  22	bukavu-148 #033916
+  3  60  21	bukavu-150 #033C15
+  4  65  18	bukavu-153 #044112
+  5  71  16	bukavu-156 #054710
+  6  75  14	bukavu-158 #064B0E
+  8  81  11	bukavu-161 #08510B
+ 13  86   9	bukavu-163 #0D5609
+ 23  92   7	bukavu-166 #175C07
+ 32  96   7	bukavu-168 #206007
+ 45 100   7	bukavu-171 #2D6407
+ 58 104   7	bukavu-174 #3A6807
+ 66 106   8	bukavu-176 #426A08
+ 77 108   9	bukavu-179 #4D6C09
+ 84 110   9	bukavu-181 #546E09
+ 94 112  10	bukavu-184 #5E700A
+100 114  11	bukavu-186 #64720B
+109 116  13	bukavu-189 #6D740D
+117 119  16	bukavu-192 #757710
+123 121  20	bukavu-194 #7B7914
+132 125  27	bukavu-197 #847D1B
+137 128  33	bukavu-199 #898021
+145 133  42	bukavu-202 #91852A
+151 136  49	bukavu-204 #978831
+159 141  59	bukavu-207 #9F8D3B
+167 146  68	bukavu-210 #A79244
+173 149  75	bukavu-212 #AD954B
+181 154  85	bukavu-215 #B59A55
+186 158  91	bukavu-217 #BA9E5B
+194 162 101	bukavu-220 #C2A265
+202 167 111	bukavu-223 #CAA76F
+207 171 117	bukavu-225 #CFAB75
+214 176 128	bukavu-228 #D6B080
+218 180 136	bukavu-230 #DAB488
+223 187 148	bukavu-233 #DFBB94
+225 191 157	bukavu-235 #E1BF9D
+228 198 169	bukavu-238 #E4C6A9
+231 204 180	bukavu-241 #E7CCB4
+232 208 188	bukavu-243 #E8D0BC
+235 214 199	bukavu-246 #EBD6C7
+236 218 206	bukavu-248 #ECDACE
+238 223 216	bukavu-251 #EEDFD8
+240 227 222	bukavu-253 #F0E3DE
+242 232 231	bukavu-256 #F2E8E7

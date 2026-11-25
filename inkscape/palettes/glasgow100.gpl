@@ -1,0 +1,104 @@
+GIMP Palette
+Name: glasgow 100 Swatches
+Columns: 1
+#
+ 49   1  54	glasgow-1 #310136
+ 52   3  51	glasgow-4 #340333
+ 53   4  50	glasgow-6 #350432
+ 56   5  47	glasgow-9 #38052F
+ 57   7  46	glasgow-11 #39072E
+ 59   8  44	glasgow-14 #3B082C
+ 61  10  42	glasgow-16 #3D0A2A
+ 63  12  40	glasgow-19 #3F0C28
+ 65  13  38	glasgow-22 #410D26
+ 66  15  37	glasgow-24 #420F25
+ 68  16  35	glasgow-27 #441023
+ 69  17  34	glasgow-29 #451122
+ 71  19  32	glasgow-32 #471320
+ 72  20  31	glasgow-34 #48141F
+ 74  22  29	glasgow-37 #4A161D
+ 76  23  28	glasgow-40 #4C171C
+ 77  24  27	glasgow-42 #4D181B
+ 79  26  25	glasgow-45 #4F1A19
+ 80  27  24	glasgow-47 #501B18
+ 82  29  22	glasgow-50 #521D16
+ 84  31  21	glasgow-53 #541F15
+ 85  33  20	glasgow-55 #552114
+ 87  35  19	glasgow-58 #572313
+ 88  37  18	glasgow-60 #582512
+ 90  40  17	glasgow-63 #5A2811
+ 91  41  16	glasgow-65 #5B2910
+ 93  44  15	glasgow-68 #5D2C0F
+ 95  48  15	glasgow-71 #5F300F
+ 96  50  14	glasgow-73 #60320E
+ 97  53  14	glasgow-76 #61350E
+ 98  55  14	glasgow-78 #62370E
+100  58  15	glasgow-81 #643A0F
+100  61  15	glasgow-83 #643D0F
+101  64  16	glasgow-86 #654010
+102  67  17	glasgow-89 #664311
+103  70  17	glasgow-91 #674611
+104  73  19	glasgow-94 #684913
+105  75  20	glasgow-96 #694B14
+105  79  21	glasgow-99 #694F15
+106  81  23	glasgow-101 #6A5117
+107  84  25	glasgow-104 #6B5419
+107  88  27	glasgow-107 #6B581B
+108  90  29	glasgow-109 #6C5A1D
+109  93  32	glasgow-112 #6D5D20
+109  96  34	glasgow-114 #6D6022
+110  99  38	glasgow-117 #6E6326
+110 102  40	glasgow-119 #6E6628
+111 105  44	glasgow-122 #6F692C
+112 109  49	glasgow-125 #706D31
+112 111  52	glasgow-127 #706F34
+113 114  57	glasgow-130 #717239
+113 116  60	glasgow-132 #71743C
+114 120  65	glasgow-135 #727841
+115 123  70	glasgow-138 #737B46
+115 125  74	glasgow-140 #737D4A
+116 128  79	glasgow-143 #74804F
+116 130  83	glasgow-145 #748253
+117 133  89	glasgow-148 #758559
+117 135  93	glasgow-150 #75875D
+118 138  98	glasgow-153 #768A62
+118 140 104	glasgow-156 #768C68
+119 142 108	glasgow-158 #778E6C
+119 145 114	glasgow-161 #779172
+120 147 118	glasgow-163 #789376
+120 150 124	glasgow-166 #78967C
+121 152 127	glasgow-168 #79987F
+122 154 133	glasgow-171 #7A9A85
+123 157 139	glasgow-174 #7B9D8B
+124 159 143	glasgow-176 #7C9F8F
+125 162 149	glasgow-179 #7DA295
+127 164 153	glasgow-181 #7FA499
+129 166 158	glasgow-184 #81A69E
+130 168 162	glasgow-186 #82A8A2
+133 171 167	glasgow-189 #85ABA7
+136 174 173	glasgow-192 #88AEAD
+138 175 176	glasgow-194 #8AAFB0
+141 178 181	glasgow-197 #8DB2B5
+144 180 184	glasgow-199 #90B4B8
+148 182 189	glasgow-202 #94B6BD
+150 184 192	glasgow-204 #96B8C0
+155 186 196	glasgow-207 #9BBAC4
+159 188 201	glasgow-210 #9FBCC9
+162 189 203	glasgow-212 #A2BDCB
+166 191 207	glasgow-215 #A6BFCF
+169 193 209	glasgow-217 #A9C1D1
+174 195 213	glasgow-220 #AEC3D5
+178 196 216	glasgow-223 #B2C4D8
+181 198 219	glasgow-225 #B5C6DB
+185 199 222	glasgow-228 #B9C7DE
+188 200 224	glasgow-230 #BCC8E0
+192 202 227	glasgow-233 #C0CAE3
+195 203 229	glasgow-235 #C3CBE5
+200 205 233	glasgow-238 #C8CDE9
+205 207 236	glasgow-241 #CDCFEC
+208 208 238	glasgow-243 #D0D0EE
+213 210 242	glasgow-246 #D5D2F2
+217 212 244	glasgow-248 #D9D4F4
+223 214 248	glasgow-251 #DFD6F8
+227 216 251	glasgow-253 #E3D8FB
+233 218 255	glasgow-256 #E9DAFF

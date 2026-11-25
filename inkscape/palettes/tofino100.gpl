@@ -1,0 +1,104 @@
+GIMP Palette
+Name: tofino 100 Swatches
+Columns: 1
+#
+205 238 255	tofino-1 #CDEEFF
+196 235 253	tofino-4 #C4EBFD
+189 234 251	tofino-6 #BDEAFB
+179 231 249	tofino-9 #B3E7F9
+171 229 247	tofino-11 #ABE5F7
+157 226 243	tofino-14 #9DE2F3
+148 223 241	tofino-16 #94DFF1
+132 219 237	tofino-19 #84DBED
+115 214 233	tofino-22 #73D6E9
+103 211 229	tofino-24 #67D3E5
+ 84 205 224	tofino-27 #54CDE0
+ 71 201 220	tofino-29 #47C9DC
+ 53 194 213	tofino-32 #35C2D5
+ 43 189 208	tofino-34 #2BBDD0
+ 30 182 201	tofino-37 #1EB6C9
+ 23 175 193	tofino-40 #17AFC1
+ 20 170 188	tofino-42 #14AABC
+ 18 164 181	tofino-45 #12A4B5
+ 17 159 176	tofino-47 #119FB0
+ 16 153 169	tofino-50 #1099A9
+ 15 147 162	tofino-53 #0F93A2
+ 15 143 158	tofino-55 #0F8F9E
+ 14 137 152	tofino-58 #0E8998
+ 14 134 148	tofino-60 #0E8694
+ 13 128 142	tofino-63 #0D808E
+ 13 125 138	tofino-65 #0D7D8A
+ 13 119 132	tofino-68 #0D7784
+ 12 114 126	tofino-71 #0C727E
+ 12 110 121	tofino-73 #0C6E79
+ 11 104 115	tofino-76 #0B6873
+ 11 100 111	tofino-78 #0B646F
+ 10  94 104	tofino-81 #0A5E68
+ 10  90 100	tofino-83 #0A5A64
+  9  84  93	tofino-86 #09545D
+  8  78  86	tofino-89 #084E56
+  8  74  81	tofino-91 #084A51
+  7  67  75	tofino-94 #07434B
+  7  63  70	tofino-96 #073F46
+  6  57  63	tofino-99 #06393F
+  6  53  58	tofino-101 #06353A
+  5  47  52	tofino-104 #052F34
+  5  41  45	tofino-107 #05292D
+  5  37  41	tofino-109 #052529
+  6  31  34	tofino-112 #061F22
+  6  28  31	tofino-114 #061C1F
+  4  24  26	tofino-117 #04181A
+  3  21  22	tofino-119 #031516
+  3  17  17	tofino-122 #031111
+  4  13  12	tofino-125 #040D0C
+  5  12   8	tofino-127 #050C08
+  9  14   4	tofino-130 #090E04
+ 11  16   3	tofino-132 #0B1003
+ 15  19   2	tofino-135 #0F1302
+ 18  23   3	tofino-138 #121703
+ 20  25   3	tofino-140 #141903
+ 23  28   4	tofino-143 #171C04
+ 25  31   4	tofino-145 #191F04
+ 28  35   5	tofino-148 #1C2305
+ 30  39   5	tofino-150 #1E2705
+ 34  43   6	tofino-153 #222B06
+ 38  49   6	tofino-156 #263106
+ 41  52   7	tofino-158 #293407
+ 45  58   8	tofino-161 #2D3A08
+ 48  62   8	tofino-163 #303E08
+ 52  67   8	tofino-166 #344308
+ 55  71   9	tofino-168 #374709
+ 60  77   9	tofino-171 #3C4D09
+ 65  83  10	tofino-174 #41530A
+ 68  87  10	tofino-176 #44570A
+ 72  93  11	tofino-179 #485D0B
+ 75  96  11	tofino-181 #4B600B
+ 80 102  12	tofino-184 #50660C
+ 83 106  13	tofino-186 #536A0D
+ 87 111  13	tofino-189 #576F0D
+ 91 117  14	tofino-192 #5B750E
+ 94 120  14	tofino-194 #5E780E
+ 98 126  15	tofino-197 #627E0F
+101 129  15	tofino-199 #65810F
+105 135  16	tofino-202 #698710
+108 138  16	tofino-204 #6C8A10
+112 144  17	tofino-207 #709011
+117 150  18	tofino-210 #759612
+120 154  19	tofino-212 #789A13
+125 160  20	tofino-215 #7DA014
+128 164  22	tofino-217 #80A416
+134 171  27	tofino-220 #86AB1B
+139 178  34	tofino-223 #8BB222
+144 183  40	tofino-225 #90B728
+150 190  51	tofino-228 #96BE33
+154 195  59	tofino-230 #9AC33B
+160 202  72	tofino-233 #A0CA48
+165 206  81	tofino-235 #A5CE51
+171 213  95	tofino-238 #ABD55F
+177 220 108	tofino-241 #B1DC6C
+181 225 118	tofino-243 #B5E176
+188 232 131	tofino-246 #BCE883
+192 237 141	tofino-248 #C0ED8D
+198 244 154	tofino-251 #C6F49A
+202 248 163	tofino-253 #CAF8A3
+208 255 177	tofino-256 #D0FFB1
